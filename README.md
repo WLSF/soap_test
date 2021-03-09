@@ -1,21 +1,16 @@
-# SoapTest
+# SOAP test project
 
-**TODO: Add description**
+**This project was created to test integrations of Elixir and SOAP WebServices**
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `soap_test` to your list of dependencies in `mix.exs`:
+for now:
 
-```elixir
-def deps do
-  [
-    {:soap_test, "~> 0.1.0"}
-  ]
-end
 ```
+$ mix deps.get
+$ iex -S mix
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/soap_test](https://hexdocs.pm/soap_test).
+iex> Calculator.sum(2, 2)
+4
+```
 
